@@ -1,2 +1,4 @@
 # Text_ID-Model
 This project uses Python to develop a statistical model of text that will allow you to "ID" an author or style. This is sometimes known as Stylometry or Bayesian Classification.
+
+This is a class definition for a TextModel in the Python programming language. The TextModel class is designed to support complex models of text. It has several attributes, such as words, wordlengths, stems, and sentencelengths, which are all dictionaries used to store different characteristics of the text. The TextModel class also has several methods, including addRawText, which adds raw text to the model, and addFileText, which adds text from a file to the model. The makeSentenceLengths method is used to create a dictionary of sentence lengths, and the cleanString method is used to clean a given string by removing punctuation and non-ASCII characters, and converting it to lowercase.
